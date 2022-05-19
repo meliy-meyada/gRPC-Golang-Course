@@ -5,6 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
+
+	pb "github.com/meliy-meyada/gRPC-Golang-Course/greet/proto"
 )
 
 
@@ -18,6 +20,11 @@ func main(){
 
 	}
 	defer conn.Close()
+
+	c := pb.NewGreetServiceClient(conn)
+
+
+	doGreed(c)
 
 	//....
 }
