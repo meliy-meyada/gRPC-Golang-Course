@@ -1,0 +1,534 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu May 19 18:59:27 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 34)
+RM_RF_CMD = ${RM_F_CMD} -r
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/meyada/Documents/GitHub/gRPC-Golang-Course
+# makefile (from 'Makefile', line 19)
+SHELL := bash
+# environment
+SNAP_DATA = /var/snap/code/97
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:61243
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 20)
+SHELL_VERSION = $(shell echo $$BASH_VERSION)
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = meyada
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /snap/code/97/usr/share/code/code
+# environment
+INFOPATH = /home/linuxbrew/.linuxbrew/share/info:
+# makefile (from 'Makefile', line 41)
+project := greet calculator blog
+# environment
+MANAGERPID = 2172
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-49318eab-fdaa-4177-b445-306d1da36269.sock
+# environment
+LC_NAME = th_TH.UTF-8
+# makefile (from 'Makefile', line 30)
+PACKAGE = $(shell head -1 go.mod | awk '{print $$2}')
+# environment
+VSCODE_CWD = /home/meyada
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/meyada/anaconda3/bin:/home/meyada/anaconda3/condabin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/meyada/.local/bin:/home/meyada/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile (from 'Makefile', line 1)
+BIN_DIR = bin
+# environment
+SESSION_MANAGER = local/meyada:@/tmp/.ICE-unix/2451,unix/meyada:/tmp/.ICE-unix/2451
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/meyada/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/97
+# environment
+GOPATH = /home/meyada/go
+# makefile (from 'Makefile', line 31)
+CHECK_DIR_CMD = test -d $@ || (echo "\033[31mDirectory $@ doesn't exist\033[0m" && false)
+# environment
+SNAP_VERSION = c3511e6c
+# environment
+CONDA_PREFIX = /home/meyada/anaconda3
+# environment
+XDG_MENU_PREFIX = gnome-
+# makefile (from 'Makefile', line 32)
+HELP_CMD = grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = d21054cfafc146c2881cdc4caf316be8
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# makefile (from 'Makefile', line 4)
+CLIENT_DIR = client
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 24556
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+CONDA_EXE = /home/meyada/anaconda3/bin/conda
+# makefile (from 'Makefile', line 35)
+SERVER_BIN = ${SERVER_DIR}
+# makefile (from 'Makefile', line 2)
+PROTO_DIR = proto
+# makefile (from 'Makefile', line 22)
+VERSION_AND_ARCH = $(shell uname -rm)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/meyada/Documents/GitHub/gRPC-Golang-Course
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2418
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+MANPATH = /home/linuxbrew/.linuxbrew/share/man:
+# environment
+GOMODCACHE = /home/meyada/go/pkg/mod
+# environment
+HOME = /home/meyada
+# environment
+HOMEBREW_CELLAR = /home/linuxbrew/.linuxbrew/Cellar
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/meyada/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = meyada
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = iVFI9U_p3raFk7DfihjcV1XtwQ9Mbju67-HB7upuqE6QYKsr3pkT
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# automatic
++F = $(notdir $+)
+# environment
+ZSH = /home/meyada/.oh-my-zsh
+# environment
+SNAP_USER_COMMON = /home/meyada/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = th_TH.UTF-8
+# environment
+SNAP_REAL_HOME = /home/meyada
+# environment
+CONDA_DEFAULT_ENV = base
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/meyada/snap/code/97
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = meyada
+# environment
+SNAP_REVISION = 97
+# environment
+LC_MONETARY = th_TH.UTF-8
+# makefile (from 'Makefile', line 39)
+.DEFAULT_GOAL := help
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+GOROOT = /home/linuxbrew/.linuxbrew/Cellar/go/1.18.2/libexec
+# makefile (from 'Makefile', line 21)
+UNAME := Linux
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = th_TH.UTF-8
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/meyada
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 26)
+OS = linux ${VERSION_AND_ARCH}
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-e71bc37f-1.67.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+HOMEBREW_PREFIX = /home/linuxbrew/.linuxbrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+ 
+GDK_BACKEND = x11
+# environment
+LC_PAPER = th_TH.UTF-8
+# environment
+LC_IDENTIFICATION = th_TH.UTF-8
+# environment
+HOMEBREW_REPOSITORY = /home/linuxbrew/.linuxbrew/Homebrew
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from 'Makefile', line 3)
+SERVER_DIR = server
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = iVFI9U_p3raFk7DfihjcV1XtwQ9Mbju67-HB7upuqE6QYKsr3pkT
+# environment
+LC_NUMERIC = th_TH.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+LC_MEASUREMENT = th_TH.UTF-8
+# environment
+SNAP_NAME = code
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /home/meyada/anaconda3/bin/python
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+_CE_M = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 36)
+CLIENT_BIN = ${CLIENT_DIR}
+# makefile (from 'Makefile', line 33)
+RM_F_CMD = rm -f
+# environment
+LC_ADDRESS = th_TH.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 24601
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=166/1024=16%, Rehash=0, Collisions=30/225=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2050, inode 10225883): 7 files, no impossibilities.
+
+# 7 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: greet calculator blog
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/22=0%
+
+.PHONY: greet blog calculator help
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean_greet:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 66):
+	${RM_F_CMD} greet/${PROTO_DIR}/*.pb.go
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-19 18:57:29.666245906
+#  File has been updated.
+#  Successfully updated.
+
+rebuild: clean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 56):
+	go test ./...
+
+calculator:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	@${CHECK_DIR_CMD}
+	protoc -I$@/${PROTO_DIR} --go_opt=module=${PACKAGE} --go_out=. --go-grpc_opt=module=${PACKAGE} --go-grpc_out=. $@/${PROTO_DIR}/*.proto
+	go build -o ${BIN_DIR}/$@/${SERVER_BIN} ./$@/${SERVER_DIR}
+	go build -o ${BIN_DIR}/$@/${CLIENT_BIN} ./$@/${CLIENT_DIR}
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 85):
+	@${HELP_CMD}
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: clean_greet clean_calculator clean_blog
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 59):
+	${RM_F_CMD} ssl/*.crt
+	${RM_F_CMD} ssl/*.csr
+	${RM_F_CMD} ssl/*.key
+	${RM_F_CMD} ssl/*.pem
+	${RM_RF_CMD} ${BIN_DIR}
+
+clean_calculator:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	${RM_F_CMD} calculator/${PROTO_DIR}/*.pb.go
+	
+
+about:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 77):
+	@echo "OS: ${OS}"
+	@echo "Shell: ${SHELL} ${SHELL_VERSION}"
+	@echo "Protoc version: $(shell protoc --version)"
+	@echo "Go version: $(shell go version)"
+	@echo "Go package: ${PACKAGE}"
+	@echo "Openssl version: $(shell openssl version)"
+
+# 'override' directive
+greet: .SHELLSTATUS := 0
+greet:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := greet
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=6/40=15%
+#  recipe to execute (from 'Makefile', line 50):
+	@${CHECK_DIR_CMD}
+	protoc -I$@/${PROTO_DIR} --go_opt=module=${PACKAGE} --go_out=. --go-grpc_opt=module=${PACKAGE} --go-grpc_out=. $@/${PROTO_DIR}/*.proto
+	go build -o ${BIN_DIR}/$@/${SERVER_BIN} ./$@/${SERVER_DIR}
+	go build -o ${BIN_DIR}/$@/${CLIENT_BIN} ./$@/${CLIENT_DIR}
+
+clean_blog:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	${RM_F_CMD} blog/${PROTO_DIR}/*.pb.go
+
+blog:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	@${CHECK_DIR_CMD}
+	protoc -I$@/${PROTO_DIR} --go_opt=module=${PACKAGE} --go_out=. --go-grpc_opt=module=${PACKAGE} --go-grpc_out=. $@/${PROTO_DIR}/*.proto
+	go build -o ${BIN_DIR}/$@/${SERVER_BIN} ./$@/${SERVER_DIR}
+	go build -o ${BIN_DIR}/$@/${CLIENT_BIN} ./$@/${CLIENT_DIR}
+
+# files hash-table stats:
+# Load=16/1024=2%, Rehash=0, Collisions=0/51=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 23 / storage = 188 B / avg = 8 B
+# current buf: size = 8162 B / used = 188 B / count = 23 / avg = 8 B
+
+# strcache performance: lookups = 62 / hit rate = 62%
+# hash-table stats:
+# Load=23/8192=0%, Rehash=0, Collisions=1/62=2%
+# Finished Make data base on Thu May 19 18:59:27 2022
+
+ 
