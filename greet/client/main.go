@@ -24,7 +24,6 @@ func main(){
 	c := pb.NewGreetServiceClient(conn)
 
 
-	doGreed(c)
-
-	//....
+	// doGreed(c)
+	doGreetManyTimes(c)
 }
