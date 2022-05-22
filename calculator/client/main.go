@@ -26,5 +26,7 @@ func main(){
 
 	// doSum(c)
 
-	doPrimes(c)
+	// doPrimes(c)
+
+	doAvg(c)
 }
