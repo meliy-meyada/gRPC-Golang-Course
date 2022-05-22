@@ -1,4 +1,5 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
+ssl/
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux,go
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,linux,go
