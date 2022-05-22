@@ -30,5 +30,7 @@ func main(){
 
 	// doAvg(c)
 	
-	doMax(c)
+	// doMax(c)
+
+	doSqrt(c, 10)
 }
